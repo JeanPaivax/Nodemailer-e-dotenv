@@ -13,7 +13,6 @@ const transportador = nodemailer.createTransport({
     }
 });
 
-
 router.get("/", (req, res) => {
     res.render("pages/contato", {
         erros: [],
